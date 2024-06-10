@@ -1,5 +1,16 @@
 # HR Data Analysis and Dashboard
-Employees dataset (open source) was preprocessed and used for Power Bi dashboard creation.
+
+**Project Tasks**
+- Create a dashboard to demonstrate salary and gender distribution in different teams. 
+- Prepare report for HR on current trends in the copmany. 
+
+**Data**
+
+Employees dataset (open source) contains following information for over 900 employees: first name, gender, salary, bonus, senior management, team.  
+
+![image](https://github.com/anna-fontani/HR-Data-Analysis-and-Dashboard/assets/149007143/ea1652bc-4102-4a5d-ad62-24b53f7ff8f9)
+
+The dataset was preprocessed using Python and further exported for Power Bi dashboard creation.
 
 ## Data Cleaning
 A number of corrupt values had to be addressed (like "n.a.", "?", etc.). All these values were converted to NaN. 
