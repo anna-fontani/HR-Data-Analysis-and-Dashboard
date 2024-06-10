@@ -2,7 +2,7 @@
 
 **Project Tasks**
 - Create a dashboard to demonstrate salary and gender distribution in different teams. 
-- Prepare report for HR on current trends in the copmany. 
+- Prepare report for HR on current trends in the company. 
 
 **Data**
 
@@ -13,13 +13,14 @@ Employees dataset (open source) contains following information for over 900 empl
 The dataset was preprocessed using Python and further exported for Power Bi dashboard creation.
 
 ## Data Cleaning
-A number of corrupt values had to be addressed (like "n.a.", "?", etc.). All these values were converted to NaN. 
+
+A number of corrupt values had to be addressed ("n.a.","NA","n/a", "na", "--", "?"). All these values were converted to NaN. 
 
 Missing values were replaced by mean (salary, bonus) and "No Gender" category for gender feature. 
 
 Records with remaining missing values (first name, senior management, team) were removed for the purpose of this visualization. 
 
-Overall, in real-life scenarios, such records must be treated with attention and their values have to be restored / investigated. 
+Overall, in real-life scenarios, such records must be treated with attention and their values have to be restored / investigated through HR engagement and details specification. 
 
 ## Dashboard using Power BI
 
